@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+ <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+     
+    <link rel="icon" type="imagem/png" href="img/icon_sembg.png" />
+    <link rel="stylesheet" type="text/css" href="css/style_home.css" />
+
+    <title>PetCenter - Fale Conosco</title>
+ </head>
+
+  <body>
+
+    <header>    
+    <a href="home.html"><img  src="img/logo_sembg.png"></a>
+        <nav id="navs">
+            <ul>
+                <li><a href="noticias.html" target="_blank">Notícias</a></li>
+                <li><a href="faleconosco.html" target="_blank">Fale Conosco</a></li>
+                <li><a href="cadastro.html" target="_blank">Cadastro</a></li>
+            </ul>
+        </nav>
+
+        <nav class="menu1">
+            <input id="pesquisa" type="text" placeholder="Pesquisar...">
+            <a href=""><img id="insta" src="img/instagram.png"></a>
+            <a href=""><img id="facebook" src="img/facebook.png"></a>
+        </nav>
+    </header>
+
+    <!-- ////////////////-->
+
+    <nav class="navegação">
+        <ul>
+            <li><a href="camas.html" target="_blank">Camas</a></li>
+            <li><a href="coleiras.html" target="_blank">Coleiras</a></li>
+            <li><a href="roupas.html" target="_blank">Roupas</a></li>
+            <li><a href="casinhas.html" target="_blank">Casinhas</a></li>
+            <li><a href="brinquedos.html" target="_blank">Brinquedos</a></li>
+            <li><a href="racoes.html" target="_blank">Rações</a></li>
+            <li><a href="remedios.html" target="_blank">Remédios</a></li>
+        </ul>
+    </nav>
+
+    <!-- ////////////////-->
+      
+    <div class="container">
+     <h2 class="page-header">Fale Conosco</h2>
+     <p>
+     <form action="result_faleconosco.html" method="POST" class="form-horizontal">
+
+        <div class="form-group row">
+            <label for="nome" class="col-form-label"> Nome: </label>
+                <div class="">
+                    <input type="text" id="nome" size="50" name="pNome" class="form-control">
+                </div> 
+
+            <label for="CPF" class="col-form-label"> CPF </label>
+                <div class="">
+                    <input type="text" id="cpf" size="12" name="pCpf" placeholder="000.000.000-00" class="form-control">
+                </div>
+        </div>
+
+        <br>
+
+        <div class="form-group row">
+            <label for="telefone" class="col-form-label"> Telefone: </label>
+                <div class="">
+                    <input type="tel" id="cel" size="15" name="pFone" placeholder="(00)00000-0000" class="form-control">
+                </div>
+
+            <label for="email" class="col-form-label"> Email: </label>
+                <div class="">
+                    <input type="email" id="mail" name="pMail" placeholder="exemplo@email.com" class="form-control">
+                </div>
+            
+            <label for="prob" class="col-form-label"> Motivo: </label>   
+                <div class="">
+                    <select name="pProb" id="prob" class="form-control">
+                        <option value="Atendimento"> Atendimento </option>
+                        <option value="Entrega"> Entrega </option>
+                        <option value="Pagamento"> Pagamento </option>
+                        <option value="Produtos"> Produtos </option>
+                        <option value="Reembolso"> Reembolso </option>
+                        <option value="Outros"> Outros </option>
+                    </select>
+                </div>
+        </div>
+
+        <br>
+
+        <div class="form-group row">
+            <label for="nome" class="col-form-label"> Relate o Ocorrido Abaixo: </label>
+        </div>    
+
+
+        <div class="form-group row">
+            <div class="">
+                <textarea rows="5" cols="70" id="text" name="pComent" style="resize: none;" class="form-horizontal"> </textarea>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="form-group row">
+            <button type="submit" class="btn btn-warning"> Enviar </button>
+        </div>
+
+        <p>
+
+        <div class="form-group row">
+            <button type="reset" class="btn btn-warning"> Apagar </button>
+        </div>
+        <br>
+     </form>    
+    </div>
+    <footer>
+        <p>
+            Copyright© 2021 Pet Center Comércio - Todos os direitos reservados.
+        </p>
+    </footer>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="../public/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
