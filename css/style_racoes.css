@@ -1,0 +1,13 @@
+#racao1 , #racao2, #racao3 , #racao4 , #racao5 , #racao6{
+    width: 60%;
+}
+p{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #365942;
+}
+a:hover{
+    color: gray;
+}

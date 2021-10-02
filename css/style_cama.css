@@ -1,0 +1,13 @@
+#cama1 , #cama2, #cama3 , #cama4 , #cama5 , #cama6{
+    width: 60%;
+}
+p{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #365942;
+}
+a:hover{
+    color: gray;
+}

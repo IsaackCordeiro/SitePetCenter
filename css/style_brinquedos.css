@@ -1,0 +1,13 @@
+#brinquedo1 , #brinquedo2, #brinquedo3 , #brinquedo4 , #brinquedo5 , #brinquedo6 , #brinquedo7 , #brinquedo8 , #brinquedo9{
+    width: 60%;
+}
+p{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #365942;
+}
+a:hover{
+    color: gray;
+}

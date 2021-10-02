@@ -1,0 +1,13 @@
+#remedio1 , #remedio2, #remedio3 , #remedio4 , #remedio5 , #remedio6 , #remedio7 , #remedio8 , #remedio9{
+    width: 60%;
+}
+p{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #365942;
+}
+a:hover{
+    color: gray;
+}
